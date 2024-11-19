@@ -1,0 +1,12 @@
+<script>
+  (function() {
+    const mobileURL = "home.html";
+    const desktopURL = "homepage.html";
+    
+    if (window.innerWidth <= 768) {
+      window.location.href = mobileURL; // Redirect to mobile site
+    } else {
+      window.location.href = desktopURL; // Redirect to desktop site
+    }
+  })();
+</script>
